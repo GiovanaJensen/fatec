@@ -1,30 +1,26 @@
 <?php
 
 class Dados_Complementares{
-    private $estado_civil;
-    private $telefone;
     private $endereco;
+    private $estado_civil;
+    private $grau_instrucao;
 
-    function __constructor($estado_civil, $telefone, $endereco){
-        $this->estado_civil = $estado_civil;
-        $this->telefone = $telefone;
+    public function __construct($endereco, $estado_civil, $grau_instrucao){
         $this->endereco = $endereco;
-    }
-
-    public function get_estado_civil() {
-        return $this->estado_civil;
-    }
-
-    public function get_telefone(){
-        return $this->telefone;
+        $this->estado_civil = $estado_civil;
+        $this->grau_instrucao = $grau_instrucao;
     }
 
     public function get_endereco(){
         return $this->endereco;
     }
 
-    function __destruct(){
-        echo "Objeto finalizado!";
+    public function get_estado_civil() {
+        return $this->estado_civil;
+    }
+
+    public function get_grau_instrucao() {
+        return $this->grau_instrucao;
     }
 }
 
