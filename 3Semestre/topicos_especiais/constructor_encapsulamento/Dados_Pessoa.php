@@ -1,7 +1,7 @@
 <?php
 
 include_once "Pessoa.class.php";
-include_once "exercicios/Dados.Complementares.class.php";
+include_once "Dados_Complementares.class.php";
 
 $Willian = new Pessoa(1,"Patrick Willian", 1.75, 19, "03/05/1974", "1° ano faculdade", 756);
 $Willian_Dados_Complementares = new Dados_Complementares("solteiro", "9973738927", "Av. Ana costa");
