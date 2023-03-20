@@ -5,7 +5,7 @@ class Dados_Complementares{
     private $estado_civil;
     private $grau_instrucao;
 
-    public function __construct($endereco, $estado_civil, $grau_instrucao){
+    function __construct($endereco, $estado_civil, $grau_instrucao){
         $this->endereco = $endereco;
         $this->estado_civil = $estado_civil;
         $this->grau_instrucao = $grau_instrucao;

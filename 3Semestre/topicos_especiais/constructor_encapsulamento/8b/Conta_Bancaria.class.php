@@ -9,7 +9,7 @@ class Conta_Bancaria {
     private $saldo;
     private $status; // negativo ou positivo
 
-    public function __construct($codigo, $nome, $saldo, $status){
+    function __construct($codigo, $nome, $saldo, $status){
         $this->codigo = $codigo;
         $this->nome = $nome;
         $this->saldo = $saldo;
