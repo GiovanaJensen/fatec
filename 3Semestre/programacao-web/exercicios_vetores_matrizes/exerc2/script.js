@@ -1,5 +1,4 @@
-/*Faça um algoritmo que receba 10 números, calcule e mostre a quantidade de números entre 30 e
-90. */
+/*Escreva um algoritmo que leia um número e mostre seu inteiro. */
 
 var numeros = [];
 var qtdNumerosEntre30e90 = 0;
