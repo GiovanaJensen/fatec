@@ -1,0 +1,11 @@
+/*Construa um programa que leia o número de horas trabalhadas diárias (NH) de um funcionário
+por um período de 30 dias (ele trabalhou todos os 30 dias) e apresente o total de horas
+trabalhadas por ele nesse período.*/
+
+var nh = 0;
+
+for(var i=1; i<=30; i++){
+    nh += parseInt(prompt("Digite o número de horas trabalhadas no " + i + "° dia:"));
+}
+
+console.log("Total de horas trabalhadas: " + nh);
