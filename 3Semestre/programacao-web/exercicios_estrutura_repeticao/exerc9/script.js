@@ -2,14 +2,14 @@
 o menor valor fornecido. */
 
 var maior = 0;
-var menor = 40000;
+var menor = 0;
 
 for(var i=1; i<=20; i++){
   var num = parseInt(prompt("Digite o valor do " + i + "° número:"));
   if(num > maior){
     maior = num;
   }
-  if(num < menor){
+  if(i===1 || num < menor){
     menor = num;
   }
 }
