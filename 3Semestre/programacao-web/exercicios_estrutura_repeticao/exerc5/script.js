@@ -6,6 +6,6 @@ OBS: A fórmula apresentada no enunciado é uma representação matemática e n�
 como deve ser escrita no seu programa.*/
 
 for(var i=1; i<=50; i++){
-    var c = 5/9 * (i - 32);
+    var c = 5/9 * (i - 32); 
     console.log(i + "F = " + c.toFixed(2) + "°C");
 }
