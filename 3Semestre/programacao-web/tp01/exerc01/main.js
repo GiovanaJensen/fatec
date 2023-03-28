@@ -1,3 +1,5 @@
+/*Implemente um programa que receba o tamanho de um array dado pelo usuário, e popule esse array com os valores digitados pelo usuário. Após popular, mostre no console o tamanho do array. */
+
 function tamanhoArray(){
     var tamanho = prompt("Digite a quantidade de elementos que você quer na lista: ");
     return tamanho;
