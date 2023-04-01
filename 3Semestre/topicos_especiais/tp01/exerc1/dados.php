@@ -11,7 +11,7 @@ function funcionario_salario($nome, $salario){
 
 funcionario_salario("João", 500);
 funcionario_salario("Maria", 50000);
-funcionario_salario("Betina", 30000000);
+funcionario_salario("Betina", 30000);
 funcionario_salario("Otávio", 3000);
 
 ?>
