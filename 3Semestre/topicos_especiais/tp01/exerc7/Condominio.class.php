@@ -1,7 +1,7 @@
 <?php
 
 /*
- Escrever código que represente a abstração de um condomínio, com atributos
+ 7. Escrever código que represente a abstração de um condomínio, com atributos
 pertinentes e os respectivos métodos set( ) e get( ) para inserir e retornar os valores dos
 atributos.
 */
