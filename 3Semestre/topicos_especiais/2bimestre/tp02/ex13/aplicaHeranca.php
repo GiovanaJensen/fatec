@@ -23,7 +23,7 @@ $rendimentos->retirar(20);
 print "Retirada de 20 reais realizado <br>\n";
 print "Saldo atual: {$rendimentos->get_saldo()} <br>\n";
 print "Valor acumulado: {$rendimentos->exibirRendimentos()} <br>\n";
-print "Saldo atual: {$rendimentos->get_saldo()} <br>\n";
+print "Saldo atual: {$rendimentos->get_saldo()} <br><br>\n";
 
 print "Conta Bancária: {$cb->get_info()} <br>\n";
 print "Saldo atual: {$cb->get_saldo()} <br>\n";
@@ -31,7 +31,7 @@ $cb->depositar(0.90);
 print "Depósito de 0.90 realizado <br>\n";
 print "Saldo atual: {$cb->get_saldo()} <br>\n";
 print "Valor acumulado: {$cb->calcularRendimentos()} <br>\n";
-print "Saldo atual: {$cb->get_saldo()} <br>\n";
+print "Saldo atual: {$cb->get_saldo()} <br><br>\n";
 
 print "Conta Bancária: {$cp->get_info()} <br>\n";
 print "Saldo atual: {$cp->get_saldo()} <br>\n";
